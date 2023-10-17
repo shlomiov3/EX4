@@ -5,7 +5,7 @@ public class Program
     static void Main(string[] args){
         int currentNumber;
         int[] maxTriple = new int[3];
-        int maxSum = 0;
+        int maxSum = 0; // this will be the sum of the max triple
         int[] currentTriple = new int[2]; // [20, 3]
         // 20 3 2 9 8 11 -1
         int inputsCount = 0;
